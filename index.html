@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Formulaire d'inscription</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<div id="Pique-nique">
+				<h1>Pique-nique Multi-associations</h1>
+			</div>
+
+			<div id="Inscriptions">
+				<h3>Inscriptions</h3>
+			</div>
+			<div id="conteneur">
+				<div id="bloc_prenom">
+					<label for="prenom" id="label_prenom"><strong>Prénom :</strong></label>
+					<input type="text" name="prenom" id="prenom">
+				</div>
+
+				<div id="bloc_mot_de_passe">
+					<label for="mot_de_passe" id="label_mot_de_passe"><strong>Mot de passe :</strong></label>
+					<input type="password" name="mot_de_passe" id="mot_de_passe">
+				</div>
+
+				<div id="bloc_association">
+					<label for="association" id="label_association"><strong>Association :</strong></label>
+					<select id="liste_association">
+						<option value="">AssociationX</option>
+						<option value="AssociationA">AssociationA</option>
+						<option value="AssociationY">AssociationY</option>
+						<option value="AssociationZ">AssociationZ</option>
+						<option value="AssociationE">AssociationE</option>
+					</select>
+				</div>
+
+
+				<div id="bloc_disponiblite">
+					<label for="association" id="label_disponiblite"><strong>Disponiblités pour la semaine du 22 juin :</strong></label>
+
+					<input type="checkbox" name="lundi" id="lundi">
+					<label for="lundi">Lundi</label>
+
+					<input type="checkbox" name="mardi" id="mardi">
+					<label for="mardi">Mardi</label>
+
+					<input type="checkbox" name="mercredi" id="mercredi">
+					<label for="mercredi">Mercredi</label>
+
+					<input type="checkbox" name="jeudi" id="jeudi">
+					<label for="jeudi">Jeudi</label>
+
+					<input type="checkbox" name="vendredi" id="vendredi">
+					<label for="vendredi">Vendredi</label>
+						
+				</div>
+
+
+				<div id="bloc_contribution">
+					<label for="contribution" id="label_contribution"><strong>Contribution :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+					
+						<input type="radio" name="entree" id="entree">
+						<label for="entree">Entrée</label>
+
+						<input type="radio" name="plat" id="plat">
+						<label for="plat">Plat</label>
+
+						<input type="radio" name="dessert" id="dessert">
+						<label for="dessert">Dessert</label>	
+				</div>
+
+				<div id="bloc_commentaire">
+					<div id="div_commentaire">
+						<label for="commentaire"><strong>Commentaires</strong></label>
+					</div>
+					<div id="div_textarea">
+						<textarea name="commentaire" id="commentaire"></textarea>
+					</div>
+					
+				</div>
+				<div id="div_pour_les_boutons">
+					<button type="submit" class="bouton">S'inscrire !</button>
+					<button type="reset" class="bouton">Annuler</button>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+#conteneur{
+	border: 1px solid #fcb32a;
+	background-color:  #fcb32a;
+	height: 400px;
+	width: 710px;
+	margin-left: 328px;
+	margin-top: 10px;
+}
+
+#Pique-nique{
+	font-family: Palace Script MT;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 475px;
+}
+
+#Inscriptions{
+	font-family: Palace Script MT;
+	font-size: 37px;
+	color: #fcb32a;
+	margin-top: -40px;
+	margin-left: 586px;
+}
+
+#label_mot_de_passe{
+	margin-left: 10px;
+}
+
+#mot_de_passe{
+	margin-left: 185px;
+	width: 210px;
+}
+
+#label_prenom{
+	margin-left: 10px;
+}
+
+#prenom{
+	margin-left: 220px;
+	width: 210px;
+}
+
+#bloc_mot_de_passe{
+	margin-top: 20px;
+}
+
+#bloc_prenom{
+	margin-top: 20px;
+}
+
+#label_association{
+	margin-left: 10px;
+}
+
+#liste_association{
+	margin-left: 196px;
+}
+
+#bloc_association{
+	margin-top: 20px;
+}
+
+#bloc_disponiblite{
+	margin-top: 20px;
+}
+
+#bloc_contribution{
+	margin-top: 20px;
+}
+
+#label_disponiblite{
+	margin-left: 10px;
+}
+
+#bloc_contribution{
+	margin-left: 10px;
+}
+
+#conteneur_option_contribution{
+	margin-left: 196px;
+}
+
+#div_commentaire{
+	float: left;
+	width: 290px;
+}
+
+#bloc_commentaire{
+	margin-top: 20px;
+}
+
+#div_commentaire{
+	margin-left: 10px;
+}
+
+#div_pour_les_boutons{
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.bouton{
+	border-radius: 10px;
+}
